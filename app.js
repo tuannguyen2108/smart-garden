@@ -277,7 +277,7 @@ function updateImage() {
 }
 
 // Cập nhật ảnh mỗi 2 giây (2000 milliseconds)
-setInterval(updateImage, 2000);
+setInterval(updateImage, 1000);
 
 // Gọi hàm updateImage lần đầu khi trang được tải
 updateImage();
